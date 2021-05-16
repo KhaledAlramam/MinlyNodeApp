@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const imageRoutes = require('./api/routes/images');
 
-mongoose.connect('mongodb+srv://admin_khaled:'+ process.env.CLUSTER_PW +'@cluster0.eoccn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://admin_khaled:123456password@cluster0.eoccn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
 useNewUrlParser : true,
 useUnifiedTopology: true
 });
